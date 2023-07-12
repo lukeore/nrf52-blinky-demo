@@ -18,7 +18,7 @@
       "options": {
         "cwd": "${workspaceFolder}/blinky/pca10056/blank/armgcc"
       },
-      "command": "make flash -j$(nproc)",
+      "command": "make flash -j8",//$(nproc)",
       "group": {
         "kind": "build",
         "isDefault": true

@@ -4,10 +4,10 @@
           "name": "nRF SDK 15.3.0 - PCA10056",
           "includePath": [
               "${workspaceFolder}/**",
-              "${HOME}/nRF5_SDK_15.3.0_59ac345/**",
-              "${HOME}/nRF5_SDK_15.3.0_59ac345/external/freertos/portable/GCC",
-              "${HOME}/nRF5_SDK_15.3.0_59ac345/external/freertos/portable/GCC/nrf52",
-              "${HOME}/nRF5_SDK_15.3.0_59ac345/external/freertos/portable/CMSIS/nrf52"
+              "C:/ncs/nRF5_SDK_17.1.0_ddde560/nRF5_SDK_17.1.0_ddde560/**"//,
+              //"${HOME}/nRF5_SDK_15.3.0_59ac345/external/freertos/portable/GCC",
+              //"${HOME}/nRF5_SDK_15.3.0_59ac345/external/freertos/portable/GCC/nrf52",
+              //"${HOME}/nRF5_SDK_15.3.0_59ac345/external/freertos/portable/CMSIS/nrf52"
           ],
           "forcedInclude": [
               "${workspaceFolder}/blinky/pca10056/blank/config/sdk_config.h"
@@ -16,7 +16,7 @@
               "BOARD_PCA10056",
               "FLOAT_ABI_HARD",
               "NRF52",
-              "NRF52832_XXAA",
+              "NRF52840_XXAA",
               "NRF52_PAN_74",
               "NRF_SD_BLE_API_VERSION=6",
               "S132",
@@ -25,10 +25,10 @@
               "DEBUG",
               "DEBUG_NRF"
           ],
-          "compilerPath": "/usr/local/bin/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc",
+          "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc",
           "cStandard": "c11",
           "cppStandard": "c++17",
-          "intelliSenseMode": "clang-x64"
+          "intelliSenseMode": "gcc-arm"
       }
   ],
   "version": 4

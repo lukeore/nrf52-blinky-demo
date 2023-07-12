@@ -8,14 +8,13 @@
       "name": "nRF52 (pca10056)",
       "cwd": "${workspaceRoot}",
       "executable": "blinky/pca10056/blank/armgcc/_build/nrf52840_xxaa.out",
-      "armToolchainPath": "/usr/local/bin/gcc-arm-none-eabi-7-2018-q2-update/bin/",
+      "armToolchainPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin",
       "request": "launch",
       "type": "cortex-debug",
       "servertype": "jlink",
       "device": "nrf52",
       "interface": "swd",
-      "ipAddress": null,
-      "serialNumber": null,
+      "svdFile": "C:\\ncs\\nRF5_SDK_17.1.0_ddde560\\nRF5_SDK_17.1.0_ddde560\\modules\\nrfx\\mdk\\nrf52.svd"
     }
   ]
 }
